@@ -1,0 +1,694 @@
+{
+  "os_standards_revision": "4a5f4eb",
+  "os_standards_version": "0.1.14",
+  "openstudio_version": "2.2.0.336cf4f0ce",
+  "energyplus_version": "8.7.0",
+  "date": "2017-07-20 12:38:02 +0000",
+  "building": {
+    "name": "NECB 2011-FullServiceRestaurant-NECB HDD Method-CAN_ON_Ottawa.716280_CWEC.epw created: 2017-07-20 12:36:52 +0000",
+    "conditioned_floor_area_m2": 511.15331569,
+    "exterior_area_m2": 845.223329175342,
+    "volume": 2384.1066906608494,
+    "number_of_stories": 2
+  },
+  "geography": {
+    "hdd": 4563.0,
+    "cdd": 236.0,
+    "climate_zone": "6",
+    "city": "Ottawa Int'l",
+    "state_province_region": "ON",
+    "country": "CAN",
+    "latitude": 45.32,
+    "longitude": -75.67
+  },
+  "spacetype_area_breakdown": {
+    "space_function_-_undefined_-": 0,
+    "space_function_dining_-_family_space": 371.74807149,
+    "space_function_food_preparation": 139.4052442
+  },
+  "economics": {
+    "electricity_cost": 5109.7,
+    "electricity_cost_per_m2": 9.996413684810936,
+    "natural_gas_cost": 5498.35,
+    "natural_gas_cost_per_m2": 10.756753074325344,
+    "total_cost": 10608.05,
+    "total_cost_per_m2": 20.753166759136278,
+    "additional_cost": 0.0,
+    "additional_cost_per_m2": 0.0
+  },
+  "end_uses": {
+    "heating_gj": 391.51,
+    "cooling_gj": 12.32,
+    "interior_lighting_gj": 59.03,
+    "exterior_lighting_gj": 0,
+    "interior_equipment_gj": 30.9,
+    "exterior_equipment_gj": 0,
+    "fans_gj": 37.24,
+    "pumps_gj": 0.3,
+    "heat_rejection_gj": 0,
+    "humidification_gj": 0,
+    "heat_recovery_gj": 0,
+    "water_systems_gj": 132.14,
+    "water_systems_water_m3": 379.87,
+    "refrigeration_gj": 0,
+    "generators_gj": 0,
+    "total_end_uses_gj": 663.4399999999999,
+    "total_end_uses_water_m3": 379.87
+  },
+  "end_uses_eui": {
+    "heating_gj_per_m2": 0.7659345796701037,
+    "cooling_gj_per_m2": 0.024102357593766898,
+    "interior_lighting_gj_per_m2": 0.11548394226948538,
+    "exterior_lighting_gj_per_m2": 0,
+    "interior_equipment_gj_per_m2": 0.06045153000384717,
+    "exterior_equipment_gj_per_m2": 0,
+    "fans_gj_per_m2": 0.07285485363570449,
+    "pumps_gj_per_m2": 0.0005869080582897783,
+    "heat_rejection_gj_per_m2": 0,
+    "humidification_gj_per_m2": 0,
+    "heat_recovery_gj_per_m2": 0,
+    "water_systems_gj_per_m2": 0.25851343607470434,
+    "water_systems_water_m3_per_m2": 0.7431625470084604,
+    "refrigeration_gj_per_m2": 0,
+    "generators_gj_per_m2": 0,
+    "total_end_uses_gj_per_m2": 1.2979276073059018,
+    "total_end_uses_water_m3_per_m2": 0.7431625470084604
+  },
+  "meter_peaks": {
+    "electric_w": 13290.14,
+    "natural_gas_w": 82837.41
+  },
+  "unmet_hours": {
+    "cooling": 29.25,
+    "heating": 0.0
+  },
+  "service_water_heating": {
+    "total_nominal_occupancy": 44.152477477477476,
+    "electricity_per_year": 0.0,
+    "electricity_per_day": 0.0,
+    "electricity_per_day_per_occupant": 0.0,
+    "natural_gas_per_year": 132.14,
+    "additional_fuel_per_year": 0.0,
+    "water_m3_per_year": 379.87,
+    "water_m3_per_day": 1.0393160054719561,
+    "water_m3_per_day_per_occupant": 0.02353924547047489
+  },
+  "envelope": {
+    "outdoor_walls_average_conductance_w_per_m2_k": 0.065,
+    "outdoor_roofs_average_conductance_w_per_m2_k": 0.0915,
+    "ground_floors_average_conductance_w_per_m2_k": 0.757,
+    "windows_average_conductance_w_per_m2_k": 2.2,
+    "fdwr": 17.1,
+    "srr": 0.0,
+    "constructions": {
+      "exterior_fenestration": [
+        {
+          "name": "Customized Fenestration: cond=0.220 tvis=0.220 tsol=0.232",
+          "net_area_m2": 47.17,
+          "thermal_conductance_m2_w_per_k": 2.2,
+          "solar_transmittance": 0.6,
+          "visible_tranmittance": 0.21
+        }
+      ],
+      "exterior_opaque": [
+        {
+          "name": "Customized opaque construction {223124b2-8faf-42c4-b303-93fad66b8233} to conductance of 0.183 adj roof insulation",
+          "net_area_m2": 569.51,
+          "thermal_conductance_m2_w_per_k": 0.092,
+          "solar_absorptance": 0.7
+        },
+        {
+          "name": "Customized opaque construction {3675fa26-32e1-4c9f-a8a4-eab51f084a7c} to conductance of 0.247 adj exterior wall insulation",
+          "net_area_m2": 228.55,
+          "thermal_conductance_m2_w_per_k": 0.065,
+          "solar_absorptance": 0.92
+        }
+      ],
+      "ground": [
+        {
+          "name": "Customized opaque construction {b1dc6d80-18d1-4f2b-9276-385604f5158b} to conductance of 0.757",
+          "net_area_m2": 511.15,
+          "thermal_conductance_m2_w_per_k": 0.757,
+          "solar_absorptance": 0.7
+        }
+      ]
+    }
+  },
+  "spaces": [
+    {
+      "name": "Kitchen",
+      "multiplier": 1,
+      "volume": 425.01870851696,
+      "exterior_wall_area": 106.52720615999999,
+      "space_type_name": "Space Function Food preparation",
+      "thermal_zone": "Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN",
+      "breathing_zone_outdoor_airflow_vbz": 0.1147,
+      "infiltration_method": "Flow/ExteriorArea",
+      "infiltration_flow_per_m2": 0.00015,
+      "occupancy_schedule": "NECB-B-Occupancy",
+      "occ_per_m2": 0.05,
+      "lighting_w_per_m2": 6.42,
+      "electric_w_per_m2": 9.0,
+      "shw_m3_per_s": 0.0,
+      "waterUseEquipment": [
+        {
+          "peak_flow_rate": 4.49574007408925e-06,
+          "peak_flow_rate_per_area": 3.224943293840053e-08,
+          "shw_watts_per_person": 119.86600971356044
+        }
+      ]
+    },
+    {
+      "name": "attic",
+      "multiplier": 1,
+      "volume": 825.7024617851778,
+      "exterior_wall_area": 0.0,
+      "space_type_name": "Space Function - undefined -",
+      "thermal_zone": "Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN",
+      "breathing_zone_outdoor_airflow_vbz": -1,
+      "infiltration_method": "Flow/ExteriorArea",
+      "infiltration_flow_per_m2": 0.00015,
+      "occupancy_schedule": null,
+      "waterUseEquipment": [
+
+      ]
+    },
+    {
+      "name": "Dining",
+      "multiplier": 1,
+      "volume": 1133.3855203587118,
+      "exterior_wall_area": 169.19041208,
+      "space_type_name": "Space Function Dining - family space",
+      "thermal_zone": "Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN",
+      "breathing_zone_outdoor_airflow_vbz": 0.7988,
+      "infiltration_method": "Flow/ExteriorArea",
+      "infiltration_flow_per_m2": 0.00015,
+      "occupancy_schedule": "NECB-B-Occupancy",
+      "occ_per_m2": 0.1,
+      "lighting_w_per_m2": 5.76,
+      "electric_w_per_m2": 0.9,
+      "shw_m3_per_s": 0.0,
+      "waterUseEquipment": [
+        {
+          "peak_flow_rate": 2.39515451281452e-05,
+          "peak_flow_rate_per_area": 6.442950741383873e-08,
+          "shw_watts_per_person": 119.86600070216548
+        }
+      ]
+    }
+  ],
+  "thermal_zones": [
+    {
+      "name": "Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN",
+      "floor_area": 371.74807149,
+      "multiplier": 1,
+      "is_conditioned": "Yes",
+      "is_ideal_air_loads": false,
+      "heating_sizing_factor": 1.3,
+      "cooling_sizing_factor": 1.1,
+      "zone_heating_design_supply_air_temperature": 43.0,
+      "zone_cooling_design_supply_air_temperature": 13.0,
+      "spaces": [
+        {
+          "name": "Dining",
+          "type": "Space Function Dining - family space"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Air Terminal Single Duct Uncontrolled 2",
+          "type": "StraightComponent"
+        },
+        {
+          "name": "Zone HVAC Baseboard Convective Water 2",
+          "type": "ZoneHVACComponent"
+        }
+      ]
+    },
+    {
+      "name": "Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN",
+      "floor_area": 139.4052442,
+      "multiplier": 1,
+      "is_conditioned": "Yes",
+      "is_ideal_air_loads": false,
+      "heating_sizing_factor": 1.3,
+      "cooling_sizing_factor": 1.1,
+      "zone_heating_design_supply_air_temperature": 43.0,
+      "zone_cooling_design_supply_air_temperature": 13.0,
+      "spaces": [
+        {
+          "name": "Kitchen",
+          "type": "Space Function Food preparation"
+        }
+      ],
+      "equipment": [
+        {
+          "name": "Air Terminal Single Duct Uncontrolled 1",
+          "type": "StraightComponent"
+        },
+        {
+          "name": "Zone HVAC Baseboard Convective Water 1",
+          "type": "ZoneHVACComponent"
+        }
+      ]
+    },
+    {
+      "name": "Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN",
+      "floor_area": 511.15331569,
+      "multiplier": 1,
+      "is_conditioned": "No",
+      "is_ideal_air_loads": false,
+      "heating_sizing_factor": -1.0,
+      "cooling_sizing_factor": -1.0,
+      "zone_heating_design_supply_air_temperature": 40.0,
+      "zone_cooling_design_supply_air_temperature": 14.0,
+      "spaces": [
+        {
+          "name": "attic",
+          "type": "Space Function - undefined -"
+        }
+      ],
+      "equipment": [
+
+      ]
+    }
+  ],
+  "air_loops": [
+    {
+      "name": "Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN NECB System 3 PSZ",
+      "thermal_zones": [
+        "Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN"
+      ],
+      "total_floor_area_served": 371.74807149,
+      "supply_fan": {
+        "type": "CV",
+        "name": "Fan Constant Volume 2",
+        "fan_efficiency": 0.39975,
+        "motor_efficiency": 0.615,
+        "pressure_rise": 640.0,
+        "max_air_flow_rate": -1.0
+      },
+      "economizer": {
+        "name": "Controller Outdoor Air 2",
+        "control_type": "DifferentialEnthalpy"
+      },
+      "cooling_coils": {
+        "dx_single_speed": [
+          {
+            "name": "Coil Cooling DX Single Speed 2 113kBtu/hr 9.7EER",
+            "cop": 3.36438962523518,
+            "nominal_total_capacity_w": 19836.78
+          }
+        ],
+        "dx_two_speed": [
+
+        ]
+      },
+      "heating_coils": {
+        "coil_heating_gas": [
+          {
+            "name": "Coil Heating Gas 2",
+            "type": "Gas",
+            "efficency": 0.8
+          }
+        ],
+        "coil_heating_electric": [
+
+        ],
+        "coil_heating_water": [
+
+        ]
+      }
+    },
+    {
+      "name": "Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN NECB System 3 PSZ",
+      "thermal_zones": [
+        "Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN"
+      ],
+      "total_floor_area_served": 139.4052442,
+      "supply_fan": {
+        "type": "CV",
+        "name": "Fan Constant Volume 1",
+        "fan_efficiency": 0.39975,
+        "motor_efficiency": 0.615,
+        "pressure_rise": 640.0,
+        "max_air_flow_rate": -1.0
+      },
+      "economizer": {
+        "name": "Controller Outdoor Air 1",
+        "control_type": "NoEconomizer"
+      },
+      "cooling_coils": {
+        "dx_single_speed": [
+          {
+            "name": "Coil Cooling DX Single Speed 1 21kBtu/hr 14.0SEER",
+            "cop": 3.8248,
+            "nominal_total_capacity_w": 4625.47
+          }
+        ],
+        "dx_two_speed": [
+
+        ]
+      },
+      "heating_coils": {
+        "coil_heating_gas": [
+          {
+            "name": "Coil Heating Gas 1",
+            "type": "Gas",
+            "efficency": 0.8
+          }
+        ],
+        "coil_heating_electric": [
+
+        ],
+        "coil_heating_water": [
+
+        ]
+      }
+    }
+  ],
+  "plant_loops": [
+    {
+      "name": "Hot Water Loop",
+      "design_loop_exit_temperature": 82.0,
+      "loop_design_temperature_difference": 16.0,
+      "pumps": [
+        {
+          "name": "Pump Variable Speed 1",
+          "type": "Pump:VariableSpeed",
+          "head_pa": 179352.0,
+          "water_flow_m3_per_s": 0.000306,
+          "electric_power_w": 82.36,
+          "motor_efficency": 0.855
+        }
+      ],
+      "boilers": [
+        {
+          "name": "Primary Boiler 65kBtu/hr 0.85 AFUE",
+          "type": "Boiler:HotWater",
+          "fueltype": "NaturalGas",
+          "nominal_capacity": 18964.0192951162
+        },
+        {
+          "name": "Secondary Boiler 0kBtu/hr 0.85 AFUE",
+          "type": "Boiler:HotWater",
+          "fueltype": "NaturalGas",
+          "nominal_capacity": 0.001
+        }
+      ],
+      "chiller_electric_eir": [
+
+      ],
+      "cooling_tower_single_speed": [
+
+      ],
+      "water_heater_mixed": [
+
+      ]
+    },
+    {
+      "name": "Main Service Water Loop",
+      "design_loop_exit_temperature": 60.0000000000001,
+      "loop_design_temperature_difference": 5.0,
+      "pumps": [
+        {
+          "name": "Service Water Loop Pump",
+          "type": "Pump:ConstantSpeed",
+          "head_pa": 29891.0,
+          "water_flow_m3_per_s": 2.8e-05,
+          "electric_power_w": 1.56,
+          "motor_efficency": 0.7
+        }
+      ],
+      "boilers": [
+
+      ],
+      "chiller_electric_eir": [
+
+      ],
+      "cooling_tower_single_speed": [
+
+      ],
+      "water_heater_mixed": [
+        {
+          "name": "200.0gal NaturalGas Water Heater - 200kBtu/hr 0.807 Therm Eff",
+          "type": "WaterHeater:Mixed",
+          "heater_thermal_efficiency": 0.807222539674442,
+          "heater_fuel_type": "NaturalGas"
+        }
+      ]
+    }
+  ],
+  "eplusout_err": {
+    "warnings": [
+      " ** Warning ** IP: IDF line~6 Alpha Argument length exceeds maximum, will be truncated=  NECB 2011-FullServiceRestaurant-NECB HDD Method-CAN_ON_Ottawa.716280_CWEC.epw created: 2017-07-20 12:36:52 +000   **   ~~~   ** Will be processed as Alpha=NECB 2011-FULLSERVICERESTAURANT-NECB HDD METHOD-CAN_ON_OTTAWA.716280_CWEC.EPW CREATED: 2017-07-20 12:36:52 +0000",
+      " ** Warning ** IP: IDF line~65 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {223124b2-8faf-42c4-b303-93fad66b8233} to conductance of 0.183 adj roof insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {223124B2-8FAF-42C4-B303-93FAD66B8233} TO CONDUCTANCE OF 0.183 ADJ ROOF INSULATION",
+      " ** Warning ** IP: IDF line~81 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {223124b2-8faf-42c4-b303-93fad66b8233} to conductance of 0.183 adj roof insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {223124B2-8FAF-42C4-B303-93FAD66B8233} TO CONDUCTANCE OF 0.183 ADJ ROOF INSULATION",
+      " ** Warning ** IP: IDF line~96 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {223124b2-8faf-42c4-b303-93fad66b8233} to conductance of 0.183 adj roof insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {223124B2-8FAF-42C4-B303-93FAD66B8233} TO CONDUCTANCE OF 0.183 ADJ ROOF INSULATION",
+      " ** Warning ** IP: IDF line~111 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {223124b2-8faf-42c4-b303-93fad66b8233} to conductance of 0.183 adj roof insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {223124B2-8FAF-42C4-B303-93FAD66B8233} TO CONDUCTANCE OF 0.183 ADJ ROOF INSULATION",
+      " ** Warning ** IP: IDF line~188 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {3675fa26-32e1-4c9f-a8a4-eab51f084a7c} to conductance of 0.247 adj exterior wall insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {3675FA26-32E1-4C9F-A8A4-EAB51F084A7C} TO CONDUCTANCE OF 0.247 ADJ EXTERIOR WALL INSULATION",
+      " ** Warning ** IP: IDF line~236 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {3675fa26-32e1-4c9f-a8a4-eab51f084a7c} to conductance of 0.247 adj exterior wall insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {3675FA26-32E1-4C9F-A8A4-EAB51F084A7C} TO CONDUCTANCE OF 0.247 ADJ EXTERIOR WALL INSULATION",
+      " ** Warning ** IP: IDF line~268 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {3675fa26-32e1-4c9f-a8a4-eab51f084a7c} to conductance of 0.247 adj exterior wall insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {3675FA26-32E1-4C9F-A8A4-EAB51F084A7C} TO CONDUCTANCE OF 0.247 ADJ EXTERIOR WALL INSULATION",
+      " ** Warning ** IP: IDF line~786 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {3675fa26-32e1-4c9f-a8a4-eab51f084a7c} to conductance of 0.247 adj exterior wall insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {3675FA26-32E1-4C9F-A8A4-EAB51F084A7C} TO CONDUCTANCE OF 0.247 ADJ EXTERIOR WALL INSULATION",
+      " ** Warning ** IP: IDF line~802 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {3675fa26-32e1-4c9f-a8a4-eab51f084a7c} to conductance of 0.247 adj exterior wall insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {3675FA26-32E1-4C9F-A8A4-EAB51F084A7C} TO CONDUCTANCE OF 0.247 ADJ EXTERIOR WALL INSULATION",
+      " ** Warning ** IP: IDF line~818 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {3675fa26-32e1-4c9f-a8a4-eab51f084a7c} to conductance of 0.247 adj exterior wall insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {3675FA26-32E1-4C9F-A8A4-EAB51F084A7C} TO CONDUCTANCE OF 0.247 ADJ EXTERIOR WALL INSULATION",
+      " ** Warning ** IP: IDF line~1544 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {223124b2-8faf-42c4-b303-93fad66b8233} to conductance of 0.183 adj roof insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {223124B2-8FAF-42C4-B303-93FAD66B8233} TO CONDUCTANCE OF 0.183 ADJ ROOF INSULATION",
+      " ** Warning ** IP: IDF line~1562 Alpha Argument length exceeds maximum, will be truncated=  Customized opaque construction {3675fa26-32e1-4c9f-a8a4-eab51f084a7c} to conductance of 0.247 adj exterior wall insulatio   **   ~~~   ** Will be processed as Alpha=CUSTOMIZED OPAQUE CONSTRUCTION {3675FA26-32E1-4C9F-A8A4-EAB51F084A7C} TO CONDUCTANCE OF 0.247 ADJ EXTERIOR WALL INSULATION",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"ECONOMIZER MAX OA FRACTION 100 PCT DEFAULT\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 1\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 10\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 11\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 12\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 2\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 5\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 6\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 7\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 8\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Day:Interval=\"SCHEDULE DAY 9\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"ECONOMIZER MAX OA FRACTION 100 PCT\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 3\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 4\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 5\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 6\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 7\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Year=\"SCHEDULE RULESET 8\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Constant=\"ALWAYS OFF DISCRETE\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "ProcessScheduleInput: Schedule:Constant=\"ALWAYS ON CONTINUOUS\", Blank Schedule Type Limits Name input -- will not be validated.",
+      "CheckUsedConstructions: There are 26 nominally unused constructions in input.  For explicit details on each unused construction, use Output:Diagnostics,DisplayExtraWarnings;",
+      "GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.  Object Name=\"SPACE FUNCTION DINING - FAMILY SPACE LIGHTS 40.0 PERCENT REDUCTION\".  ZoneList/Zone Name=\"SP-DINING SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN\".  Item length=[109] > Maximum Length=[100]. You may need to shorten the names.  Shortening the Object Name by [10] characters will assure uniqueness for this ZoneList.  name that will be used (may be needed in reporting)=\"SP-DINING SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN SPACE FUNCTION DINING - FAMILY SPACE LIGHTS 40.0 PERCENT REDUCTION\".",
+      "GetInternalHeatGains: Lights Combination of ZoneList and Object Name generate a name too long.  Object Name=\"SPACE FUNCTION FOOD PREPARATION LIGHTS 40.0 PERCENT REDUCTION\".  ZoneList/Zone Name=\"SP-KITCHEN SYS-3 FLR-1 SCH-B HPLCMT-NORTH ZN\".  Item length=[105] > Maximum Length=[100]. You may need to shorten the names.  Shortening the Object Name by [6] characters will assure uniqueness for this ZoneList.  name that will be used (may be needed in reporting)=\"SP-KITCHEN SYS-3 FLR-1 SCH-B HPLCMT-NORTH ZN SPACE FUNCTION FOOD PREPARATION LIGHTS 40.0 PERCENT REDUCTION\".",
+      "GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.  Object Name=\"SPACE FUNCTION DINING - FAMILY SPACE ELEC EQUIP 10.0 PERCENT REDUCTION\".  ZoneList/Zone Name=\"SP-DINING SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN\".  Item length=[113] > Maximum Length=[100]. You may need to shorten the names.  Shortening the Object Name by [14] characters will assure uniqueness for this ZoneList.  name that will be used (may be needed in reporting)=\"SP-DINING SYS-3 FLR-1 SCH-B HPLCMT-SOUTH ZN SPACE FUNCTION DINING - FAMILY SPACE ELEC EQUIP 10.0 PERCENT REDUCTION\".",
+      "GetInternalHeatGains: ElectricEquipment Combination of ZoneList and Object Name generate a name too long.  Object Name=\"SPACE FUNCTION FOOD PREPARATION ELEC EQUIP 10.0 PERCENT REDUCTION\".  ZoneList/Zone Name=\"SP-KITCHEN SYS-3 FLR-1 SCH-B HPLCMT-NORTH ZN\".  Item length=[109] > Maximum Length=[100]. You may need to shorten the names.  Shortening the Object Name by [10] characters will assure uniqueness for this ZoneList.  name that will be used (may be needed in reporting)=\"SP-KITCHEN SYS-3 FLR-1 SCH-B HPLCMT-NORTH ZN SPACE FUNCTION FOOD PREPARATION ELEC EQUIP 10.0 PERCENT REDUCTION\".",
+      "GetDXCoils: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 2 113KBTU/HR 9.7EER\", invalid  ...Part Load Fraction Correlation Curve Name = DXCOOL-NECB2011-REF-COOLPLFFPLR 1 has out of range value.  ...Curve maximum must be <= 1.0, curve max at PLR = 0.99 is 1.015  ...Setting curve maximum to 1.0 and simulation continues.",
+      "GetDXCoils: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 1 21KBTU/HR 14.0SEER\", invalid  ...Part Load Fraction Correlation Curve Name = DXCOOL-NECB2011-REF-COOLPLFFPLR has out of range value.  ...Curve maximum must be <= 1.0, curve max at PLR = 0.99 is 1.015  ...Setting curve maximum to 1.0 and simulation continues.",
+      "The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 2 113KBTU/HR 9.7EER but not at the AHRI test condition due to curve out of bound.   Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.",
+      "The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = COIL COOLING DX SINGLE SPEED 1 21KBTU/HR 14.0SEER but not at the AHRI test condition due to curve out of bound.   Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.",
+      "Output:Meter: invalid Name=\"DISTRICTCOOLING:FACILITY\" - not found.",
+      "Output:Meter: invalid Name=\"DISTRICTHEATING:FACILITY\" - not found.",
+      "Output:Meter:MeterFileOnly requested for \"Electricity:Facility\" (TimeStep), already on \"Output:Meter\". Will report to both eplusout.eso and eplusout.mtr",
+      "CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 1 21KBTU/HR 14.0SEER\" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = -2.10 C.   ...Occurrence info = RUN PERIOD 1, 01/01 02:15 - 02:17  ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil     1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 11.912 C.     2) may have a low air flow rate per watt of cooling capacity. Check inputs.     3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.",
+      "CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed \"COIL COOLING DX SINGLE SPEED 2 113KBTU/HR 9.7EER\" - Full load outlet air dry-bulb temperature < 2C. This indicates the possibility of coil frost/freeze. Outlet temperature = 0.70 C.   ...Occurrence info = RUN PERIOD 1, 05/08 13:00 - 13:15  ... Possible reasons for low outlet air dry-bulb temperatures are: This DX coil     1) may have a low inlet air dry-bulb temperature. Inlet air temperature = 19.825 C.     2) may have a low air flow rate per watt of cooling capacity. Check inputs.     3) is used as part of a HX assisted cooling coil which uses a high sensible effectiveness. Check inputs.",
+      "Plant loop falling below lower temperature limit, PlantLoop=\"MAIN SERVICE WATER LOOP\"",
+      "CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 1 21KBTU/HR 14.0SEER\" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:",
+      "CalcDoe2DXCoil: Coil:Cooling:DX:SingleSpeed=\"COIL COOLING DX SINGLE SPEED 2 113KBTU/HR 9.7EER\" - Full load outlet temperature indicates a possibility of frost/freeze error continues. Outlet air temperature statistics follow:"
+    ],
+    "fatal": [
+
+    ],
+    "severe": [
+
+    ]
+  },
+  "ruby_warnings": [
+    "space.spaceType.get.defaultScheduleSet.get.numberofPeopleSchedule is empty for attic",
+    "zone.sizingZone.zoneHeatingSizingFactor is empty for Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN",
+    "zone.sizingZone.zoneCoolingSizingFactor is empty for Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN",
+    "Fan Constant Volume 2 does not exist in sql file WHERE ReportName='EquipmentSummary' AND ReportForString='Entire Facility' AND TableName='Fans' AND ColumnName='Max Air Flow Rate' AND Units='m3/s'",
+    "Fan Constant Volume 1 does not exist in sql file WHERE ReportName='EquipmentSummary' AND ReportForString='Entire Facility' AND TableName='Fans' AND ColumnName='Max Air Flow Rate' AND Units='m3/s'"
+  ],
+  "information": [
+    "[Info][TEST-PASS][Table A-8.4.3.3.1]:[SPACE][Kitchen]-occupancy_per_area result value:0.050052205 == expected value:0.05",
+    "[Info][TEST-PASS][Table A-8.4.3.3.1]:[SPACE][Kitchen]-occupancy_schedule result value:NECB-B-Occupancy == expected value:NECB-B-Occupancy",
+    "[Info][TEST-PASS][Table A-8.4.3.3.1]:[SPACE][Dining]-occupancy_per_area result value:0.099996771 == expected value:0.1",
+    "[Info][TEST-PASS][Table A-8.4.3.3.1]:[SPACE][Dining]-occupancy_schedule result value:NECB-B-Occupancy == expected value:NECB-B-Occupancy",
+    "[Info][TEST-PASS][NECB2011-Section 3.2.1.4]:[ENVELOPE]fenestration_to_door_and_window_percentage result value:36.24666666666667 >= expected value:17.1",
+    "[Info][TEST-PASS][NECB2011-Section 3.2.1.4]:[ENVELOPE]skylight_to_roof_percentage result value:5.0 >= expected value:0.0",
+    "[Info][TEST-PASS][NECB2011-Section 8.4.3.6]:[SPACE][Kitchen]-infiltration_method result value:Flow/ExteriorArea == expected value:Flow/ExteriorArea",
+    "[Info][TEST-PASS][NECB2011-Section 8.4.3.6]:[SPACE][attic]-infiltration_method result value:Flow/ExteriorArea == expected value:Flow/ExteriorArea",
+    "[Info][TEST-PASS][NECB2011-Section 8.4.3.6]:[SPACE][Dining]-infiltration_method result value:Flow/ExteriorArea == expected value:Flow/ExteriorArea",
+    "[Info][TEST-PASS][NECB2011-Section 3.2.2.3]:[ENVELOPE]ext_window_conductances result value:2.2 == expected value:2.2",
+    "[Info][TEST-PASS][NECB2011-Section 3.2.3.1]:[ENVELOPE]ground_floor_conductances result value:0.757 == expected value:0.757",
+    "[Info][TEST-PASS][NECB2011-?]:[ZONE][Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN] heating_sizing_factor result value:1.3 == expected value:1.3",
+    "[Info][TEST-PASS][NECB2011-?]:[ZONE][Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN] cooling_sizing_factor result value:1.1 == expected value:1.1",
+    "[Info][TEST-PASS][NECB2011-?]:[ZONE][Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN] heating_design_supply_air_temp result value:43.0 == expected value:43.0",
+    "[Info][TEST-PASS][NECB2011-?]:[ZONE][Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN] cooling_design_supply_temp result value:13.0 == expected value:13.0",
+    "[Info][TEST-PASS][NECB2011-?]:[ZONE][Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN] heating_sizing_factor result value:1.3 == expected value:1.3",
+    "[Info][TEST-PASS][NECB2011-?]:[ZONE][Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN] cooling_sizing_factor result value:1.1 == expected value:1.1",
+    "[Info][TEST-PASS][NECB2011-?]:[ZONE][Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN] heating_design_supply_air_temp result value:43.0 == expected value:43.0",
+    "[Info][TEST-PASS][NECB2011-?]:[ZONE][Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN] cooling_design_supply_temp result value:13.0 == expected value:13.0"
+  ],
+  "warnings": [
+
+  ],
+  "errors": [
+    "[ERROR][TEST-FAIL][Table 4.2.1.6]:[SPACE][Kitchen]-lighting_per_area expected value:6.42 == result value:10.6999006",
+    "[ERROR][TEST-FAIL][Table A-8.4.3.3.1]:[SPACE][Kitchen]-electric_equipment_per_area expected value:9.0 == result value:9.999907096",
+    "[ERROR][TEST-FAIL][Table 4.2.1.6]:[SPACE][Dining]-lighting_per_area expected value:5.76 == result value:9.599910809",
+    "[ERROR][TEST-FAIL][Table A-8.4.3.3.1]:[SPACE][Dining]-electric_equipment_per_area expected value:0.9 == result value:0.999990712",
+    "[ERROR][TEST-FAIL][NECB2011-Section 8.4.3.6]:[SPACE][Kitchen]-infiltration_flow_per_m2 expected value:0.00015 == result value:0.00025",
+    "[ERROR][TEST-FAIL][NECB2011-Section 8.4.3.6]:[SPACE][attic]-infiltration_flow_per_m2 expected value:0.00015 == result value:0.00025",
+    "[ERROR][TEST-FAIL][NECB2011-Section 8.4.3.6]:[SPACE][Dining]-infiltration_flow_per_m2 expected value:0.00015 == result value:0.00025",
+    "[ERROR][TEST-FAIL][NECB2011-Section 3.2.2.2]:[ENVELOPE]ext_wall_conductances expected value:0.247 == result value:0.065",
+    "[ERROR][TEST-FAIL][NECB2011-Section 3.2.2.2]:[ENVELOPE]ext_roof_conductances expected value:0.183 == result value:0.0915",
+    "[ERROR][TEST-FAIL][NECB2011-?]:[ZONE][Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN] heating_sizing_factor expected value:-1.0 == result value:1.3",
+    "[ERROR][TEST-FAIL][NECB2011-?]:[ZONE][Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN] cooling_sizing_factor expected value:-1.0 == result value:1.1",
+    "[ERROR][TEST-FAIL][NECB2011-?]:[ZONE][Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN] heating_design_supply_air_temp expected value:40.0 == result value:43.0",
+    "[ERROR][TEST-FAIL][NECB2011-?]:[ZONE][Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN] cooling_design_supply_temp expected value:14.0 == result value:13.0"
+  ],
+  "unique_errors": [
+    "[ERROR][TEST-FAIL][Table 4.2.1.6]:[SPACE][Kitchen]-lighting_per_area expected value:6.42 == result value:10.6999006",
+    "[ERROR][TEST-FAIL][Table A-8.4.3.3.1]:[SPACE][Kitchen]-electric_equipment_per_area expected value:9.0 == result value:9.999907096",
+    "[ERROR][TEST-FAIL][Table 4.2.1.6]:[SPACE][Dining]-lighting_per_area expected value:5.76 == result value:9.599910809",
+    "[ERROR][TEST-FAIL][Table A-8.4.3.3.1]:[SPACE][Dining]-electric_equipment_per_area expected value:0.9 == result value:0.999990712",
+    "[ERROR][TEST-FAIL][NECB2011-Section 8.4.3.6]:[SPACE][Kitchen]-infiltration_flow_per_m2 expected value:0.00015 == result value:0.00025",
+    "[ERROR][TEST-FAIL][NECB2011-Section 8.4.3.6]:[SPACE][attic]-infiltration_flow_per_m2 expected value:0.00015 == result value:0.00025",
+    "[ERROR][TEST-FAIL][NECB2011-Section 8.4.3.6]:[SPACE][Dining]-infiltration_flow_per_m2 expected value:0.00015 == result value:0.00025",
+    "[ERROR][TEST-FAIL][NECB2011-Section 3.2.2.2]:[ENVELOPE]ext_wall_conductances expected value:0.247 == result value:0.065",
+    "[ERROR][TEST-FAIL][NECB2011-Section 3.2.2.2]:[ENVELOPE]ext_roof_conductances expected value:0.183 == result value:0.0915",
+    "[ERROR][TEST-FAIL][NECB2011-?]:[ZONE][Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN] heating_design_supply_air_temp expected value:40.0 == result value:43.0",
+    "[ERROR][TEST-FAIL][NECB2011-?]:[ZONE][Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN] cooling_design_supply_temp expected value:14.0 == result value:13.0"
+  ],
+  "sanity_check": {
+    "fail": [
+      "[ERROR][SANITY_CHECK-FAIL] for [SPACE][attic] and [THERMAL ZONE] [Sp-attic Sys-0 Flr-2 Sch-- undefined - HPlcmt-core ZN] where isConditioned is supposed to be [Yes] but found as No"
+    ],
+    "pass": [
+      "[TEST-PASS][SANITY_CHECK-PASS] for [SPACE][Dining] and [THERMAL ZONE] [Sp-Dining Sys-3 Flr-1 Sch-B HPlcmt-south ZN] where isConditioned is supposed to be [Yes] and found as Yes",
+      "[TEST-PASS][SANITY_CHECK-PASS] for [SPACE][Kitchen] and [THERMAL ZONE] [Sp-Kitchen Sys-3 Flr-1 Sch-B HPlcmt-north ZN] where isConditioned is supposed to be [Yes] and found as Yes"
+    ]
+  },
+  "is_baseline": "false",
+  "measures": [
+    {
+      "name": "create_prototype_building",
+      "arguments": {
+        "__SKIP__": false,
+        "building_type": "FullServiceRestaurant",
+        "climate_zone": "NECB HDD Method",
+        "epw_file": "CAN_ON_Ottawa.716280_CWEC.epw",
+        "template": "NECB 2011"
+      },
+      "display_name": "Create Prototype Building",
+      "measure_class_name": "CreatePrototypeBuilding",
+      "index": 0,
+      "is_ecm": false
+    },
+    {
+      "name": "ecm_increaseinsulationrvalueforexteriorwallsbypercentage",
+      "arguments": {
+        "__SKIP__": false,
+        "r_value": 300
+      },
+      "display_name": "Increase R-value of Insulation for Exterior Walls By a Specified Percentage",
+      "measure_class_name": "IncreaseInsulationRValueForExteriorWallsByPercentage",
+      "index": 1,
+      "is_ecm": true
+    },
+    {
+      "name": "ecm_increaseinsulationrvalueforroofsbypercentage",
+      "arguments": {
+        "__SKIP__": false,
+        "r_value": 100
+      },
+      "display_name": "Increase R-value of Insulation for Roofs by a Specified Percentage.",
+      "measure_class_name": "IncreaseInsulationRValueForRoofsByPercentage",
+      "index": 2,
+      "is_ecm": true
+    },
+    {
+      "name": "ecm_reduceelectricequipmentloadsbypercentage",
+      "arguments": {
+        "__SKIP__": false,
+        "elecequip_power_reduction_percent": 10
+      },
+      "display_name": "Reduce Electric Equipment Loads by Percentage",
+      "measure_class_name": "ReduceElectricEquipmentLoadsByPercentage",
+      "index": 3,
+      "is_ecm": true
+    },
+    {
+      "name": "ecm_reducelightingloadsbypercentage",
+      "arguments": {
+        "__SKIP__": false,
+        "lighting_power_reduction_percent": 40
+      },
+      "display_name": "Reduce Lighting Loads by Percentage",
+      "measure_class_name": "ReduceLightingLoadsByPercentage",
+      "index": 4,
+      "is_ecm": true
+    },
+    {
+      "name": "ecm_reducespaceinfiltrationbypercentage",
+      "arguments": {
+        "__SKIP__": false,
+        "space_infiltration_reduction_percent": 40
+      },
+      "display_name": "ReduceSpaceInfiltrationByPercentage",
+      "measure_class_name": "ReduceSpaceInfiltrationByPercentage",
+      "index": 5,
+      "is_ecm": true
+    },
+    {
+      "name": "ecm_reduceventilationbypercentage",
+      "arguments": {
+        "__SKIP__": false,
+        "design_spec_outdoor_air_reduction_percent": 40
+      },
+      "display_name": "ReduceVentilationByPercentage",
+      "measure_class_name": "ReduceVentilationByPercentage",
+      "index": 6,
+      "is_ecm": true
+    },
+    {
+      "name": "view_model",
+      "arguments": {
+        "__SKIP__": false
+      },
+      "display_name": "ViewModel",
+      "measure_class_name": "ViewModel",
+      "index": 7,
+      "is_ecm": false
+    },
+    {
+      "name": "btaputilitytariffs",
+      "arguments": {
+        "__SKIP__": false
+      },
+      "display_name": "Utility Tariffs Model Setup",
+      "measure_class_name": "UtilityTariffsModelSetup",
+      "index": 8,
+      "is_ecm": false
+    },
+    {
+      "name": "btapresults",
+      "arguments": {
+        "__SKIP__": false,
+        "generate_hourly_report": "false"
+      },
+      "display_name": "BTAP Results",
+      "measure_class_name": "BTAPResults",
+      "index": 9,
+      "is_ecm": false
+    },
+    {
+      "name": "openstudioresults",
+      "arguments": {
+        "__SKIP__": false
+      },
+      "display_name": "OpenStudio Results",
+      "measure_class_name": "OpenStudioResults",
+      "index": 10,
+      "is_ecm": false
+    }
+  ]
+}
